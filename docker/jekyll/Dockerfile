@@ -9,4 +9,4 @@ USER mint
 RUN gem install "html-proofer:~>5.0" "jekyll-theme-chirpy:~>7.4"
 
 ENTRYPOINT ["bundle", "exec", "jekyll"]
-CMD ["serve", "--host=0.0.0.0", "--future"]
+CMD ["serve", "--host=0.0.0.0", "--future", "--drafts", "--livereload"]
