@@ -10,4 +10,4 @@ order: 4
 
 サイト訪問時のアクセスデータはCloudflare（Cloudflare, Inc.）に送信され、同社のプライバシーポリシーに基づき取り扱われます。詳細は Cloudflare のプライバシーポリシーをご確認ください。
 
-* https://www.cloudflare.com/privacypolicy/
+* <https://www.cloudflare.com/privacypolicy/>
