@@ -4,8 +4,9 @@ run-name: 'Deploy GitHub Pages'
 
 on:
   schedule:
-    - cron: '17 17 * * 1-5'
-    - cron: '7 7 * * 0,6'
+    # UTC
+    - cron: '17 8 * * 1-5'
+    - cron: '7 22 * * 5,6'
 
   workflow_dispatch:
 
