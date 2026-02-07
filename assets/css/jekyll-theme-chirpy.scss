@@ -1,0 +1,14 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main{%- if jekyll.environment == 'production' -%}.bundle{%- endif -%}';
+
+/* append your custom style below */
+
+$font-system-jp: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro',
+  'メイリオ', Meiryo, Verdana, 'ＭＳ Ｐゴシック', sans-serif;
+
+body {
+  font-family: $font-system-jp;
+}
