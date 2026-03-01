@@ -3,10 +3,10 @@ name: 'daily: Deploy GitHub Pages'
 run-name: 'Deploy GitHub Pages'
 
 on:
-  schedule:
-    # UTC
-    - cron: '17 8 * * 1-5'
-    - cron: '7 22 * * 5,6'
+  # schedule:
+  #   # UTC
+  #   - cron: '17 8 * * 1-5'
+  #   - cron: '7 22 * * 5,6'
 
   workflow_dispatch:
 
