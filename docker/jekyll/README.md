@@ -4,7 +4,7 @@
 **Run**:
 
 ```console
-docker run --rm -v ./:/work -p 4000:4000 -p 35729:35729 dotlog
+docker run --rm -v ./:/work -p 4000:4000 -p 35729:35729 -it dotlog
 ```
 
 **Build**:
